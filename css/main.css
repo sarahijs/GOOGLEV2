@@ -1,0 +1,237 @@
+body{
+    /*margen*/
+    margin: 0;
+    /*margen pa dentro*/
+    padding: 0;
+    /*tamaño de letra*/
+    font-size: 20px;
+    /*tipografia*/
+    font-family: Arial, Helvetica, sans-serif;
+    
+}   
+/********************************/
+/*******************************/
+/******************************/
+/*navegcion*/
+
+header{
+    background-color: rgb(255, 255, 255);
+    /*wid-ancho/heig/alto*/
+    width: 100%;
+    height: 50px;
+}
+
+header nav{
+    background-color: white;
+    display:flex;
+    justify-content: flex-end;
+}
+
+
+header nav .nav-right-section{
+    background-color: white(237, 229, 229);
+    width: 250px;
+    /*eliminar viñetas*/
+    list-style: none;
+    /*flexibilidad a nuetsro componente*/
+    display:  flex;
+    /*centramos los elementos horizontamentel*/
+    justify-content: center;
+    /*centramos verticalmente la lista*/
+    align-items: center;
+    height: auto;
+    
+}
+
+a{
+    /*Elimina la linea debajo*/
+    text-decoration: none;
+   
+}
+
+ nav  .nav-right-section a{
+    color: rgb(21, 21, 21);
+      /*margen separador*/
+    margin-right: 25px;
+    
+    
+}
+nav .nav-right-section .menu{
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 40px;
+      /*modifica el tamaño de la imagen al tamaño del contenedor*/
+    background-size: contain;
+      /*para eliminar la repeticion del elemento*/
+    background-repeat: no-repeat;
+}
+nav .nav-right-section img{
+    border-radius: 15px;
+    margin-left: 8px;
+    width: 35px;
+}
+
+/********************************/
+/*******************************/
+/******************************/
+/*main*/
+
+main{
+   
+    margin-top: 10px;
+    text-align: center;
+}
+
+main .main-logo{
+    background-color: white;
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-logo{
+    height: 190px;
+}
+
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+
+main .main-input-container{
+     border: 1px solid #dfe1e5;
+     border-radius: 100px;
+     width: 525px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+
+}
+
+main .main-input input{
+    height: 30px;
+    border: none;
+    outline: none;
+    width: 490px;
+
+}
+
+main .main-input .serch-icon{
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    background-size: contain;
+    padding-left: 6%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 15px;
+
+}
+
+main .main-input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    height: 19px;
+    width: 25px;
+    background-size: contain;
+    background-position: center;
+    padding-left: 1%;
+    background-repeat: no-repeat;
+
+}
+
+main .main-input .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    background-position: center;
+    background-size: contain;
+    width: 17px;
+    height: 17px;
+    background-size: contain;
+    background-position: center;
+    padding-left: 1%;
+    background-repeat: no-repeat;
+
+
+}
+
+/*botones*/
+
+main .main-buttoons button{
+    width: 510px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+main .main-buttoons div{
+    display: inline-block;
+
+}
+
+main .main-buttoons button{
+    background-color: #f8f9fa;
+    border: none;
+    height: 40px;
+    font-size: 16px;
+    color: #3c4043;
+    padding: 0px 50px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0px 0px 5px #202122;
+}
+
+main .main-buttoons button:hover{
+    color: #202124;
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px #20212447;
+}
+
+footer{
+    width: 100%;
+    bottom: 0;
+}
+
+footer nav{
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid #dadce0;
+    font-size: 14px;
+    margin-top: 23.5%;
+}
+
+footer .footer-left{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+footer .footer-left{
+    color: #70757a;
+    margin: 30px;
+    
+}
+
+footer  .footer-right{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+footer .footer-right a{
+    color: #196bbd;
+    margin: 30px;
+}
+
+  
